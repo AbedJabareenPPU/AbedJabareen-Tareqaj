@@ -23,7 +23,7 @@ body {
   display: block;
   padding: 12px;
   text-align: center;
-  color: rgb(20, 35, 55);
+  color: rgb(135, 140, 255);
   text-decoration: solid;
 }
 
@@ -59,9 +59,36 @@ em {
   text-align: center;
 }
 
-#why_hebron mark {
+#schedule {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#schedule table {
+  width: 15%;
+  margin: 0 auto;
+  color: rgb(255, 234, 0);
+}
+
+#schedule table {
+  width: 25%;
+  border-collapse: collapse;
+}
+
+#schedule th {
+  background: rgb(100, 200, 150);
+  color: white;
+}
+
+#schedule th, td {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+mark {
   background: rgb(56 189 220 / 20%);
-  color: rgb(50, 20, 20);
+  color: rgb(150, 185, 255);
   padding: 2px 6px;
   border-radius: 4px;
   font-weight: bold;
