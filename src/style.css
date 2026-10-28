@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(125deg, rgb(8, 15, 40) 0%, rgb(30, 58, 138) 45%, rgb(56, 189, 220) 100%);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 130px;
+  padding: 15px;
+  background: rgb(30, 58, 138);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 14px;
+}
+
+.navbar a {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  color: rgb(20, 35, 55);
+  text-decoration: solid;
+}
+
+.navbar a:hover {
+  background: rgb(56, 189, 220);
+  color: rgb(8, 15, 40);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 14px;
+}
+
+h1 {
+  color: rgb(80, 85, 85);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(80, 85, 85);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+em {
+  display: block;
+  color: yellowgreen;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+#why_hebron {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#why_hebron mark {
+  background: rgb(56 189 220 / 20%);
+  color: rgb(50, 20, 20);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
